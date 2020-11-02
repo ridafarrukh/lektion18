@@ -12,5 +12,9 @@ public class Point {
      public int x;
      public int y;
 
+    public static void Print(Point p1) {
+        System.out.println("(" + p1.x + "," + p1.y + ")");
+    }
+
 
 }
